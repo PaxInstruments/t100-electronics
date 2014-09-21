@@ -31,7 +31,7 @@ int usbDescriptorStringSerialNumber[] = {
 /*---------------------------------------------------------------------------*/
 void handleMessage()
 {
-    switch(msgbuf[1])
+    switch(msgbuf[0])
     {
         case 0: /* Version reading */
         {                        
@@ -41,8 +41,7 @@ void handleMessage()
             break;
         }
         case 1: /* ADC reading */
-        {
-            msgbuf[0] = 0xCC;
+        {            
             msgbuf[1] = thermocoupleReadout[0];
             msgbuf[2] = thermocoupleReadout[1];
             msgbuf[3] = thermocoupleReadout[2];
@@ -50,8 +49,7 @@ void handleMessage()
             msgbuf[5] = coldJunctionReadout[0];
             msgbuf[6] = coldJunctionReadout[1];
             msgbuf[7] = coldJunctionReadout[2];
-            msgbuf[8] = coldJunctionReadout[3];  
-            msgbuf[9] = 0xDD;          
+            msgbuf[8] = coldJunctionReadout[3];              
             break;
         }
         case 2: /* GPIO control */
@@ -77,7 +75,7 @@ void handleMessage()
             
             break;
         }
-    }        
+    }    
 }
 /*---------------------------------------------------------------------------*/
 int main(void)
