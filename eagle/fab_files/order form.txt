@@ -1,0 +1,40 @@
+
+Board size (板子大小)
+45 x 18 mm
+
+Board layers (板子层数)
+2
+
+Board quantity (板子数量)
+10
+
+Board thickness (板子厚度)
+1.6 mm
+
+Minimum line width/spacing (最小线宽/线距)
+6/6
+
+Via (过孔)
+0.3 mm
+
+Solder mask color (阻焊颜色)
+Blue (蓝色)
+
+Character color (字符颜色)
+White (白色)
+
+Pad spraying (焊盘喷镀)
+Immersion Gold (沉金)
+
+Solder coverage (阻焊覆盖)
+Through-hole cover oil (过孔盖油)
+
+Flying probe test (飞针测试)
+Visual (目测)
+
+Copper thickness (铜箔厚度)
+1 oz
+
+Delivery time (发货时间)
+48 hour expedited service (48小时加急服务)
+
