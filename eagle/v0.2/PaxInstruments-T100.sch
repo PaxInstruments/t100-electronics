@@ -11230,7 +11230,7 @@ by exp-lbrs.ulp</description>
 <wire x1="147.32" y1="73.66" x2="5.08" y2="73.66" width="0.4064" layer="94"/>
 <wire x1="254" y1="116.84" x2="147.32" y2="116.84" width="0.4064" layer="94"/>
 <wire x1="254" y1="66.04" x2="147.32" y2="66.04" width="0.4064" layer="94"/>
-<text x="248.92" y="5.08" size="2.54" layer="94">v0.1</text>
+<text x="248.92" y="5.08" size="2.54" layer="94">v0.2</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

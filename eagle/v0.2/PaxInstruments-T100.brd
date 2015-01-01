@@ -134,7 +134,7 @@
 <wire x1="23.1775" y1="14.2875" x2="23.1775" y2="9.8425" width="1.016" layer="46"/>
 <wire x1="23.1775" y1="7.3025" x2="23.1775" y2="2.8575" width="1.016" layer="46"/>
 <text x="44.45" y="7.3025" size="1.016" layer="26" font="vector" rot="MR0">Pax Instruments T-100 
-[v0.1] November 2014</text>
+[v0.2] January 2015</text>
 </plain>
 <libraries>
 <library name="rcl">
