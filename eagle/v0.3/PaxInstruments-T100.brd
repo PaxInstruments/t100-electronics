@@ -1554,6 +1554,49 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603">
+<wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
+<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="1X02_ROUND">
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.2032" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1774,6 +1817,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="SJ1" library="jumper" package="SJ" value="" x="23.1775" y="15.875" smashed="yes">
 <attribute name="VALUE" x="23.5776" y="15.875" size="0.02" layer="27"/>
 </element>
+<element name="LED1" library="SparkFun-LED" package="LED-0603" value="" x="-16.8275" y="0.9525"/>
+<element name="R10" library="rcl" package="R0603" value="500R" x="-16.51" y="-3.175"/>
+<element name="JP3" library="microbuilder" package="1X02_ROUND" value="" x="-20.6375" y="-1.905"/>
 </elements>
 <signals>
 <signal name="USB_5V">
@@ -1842,6 +1888,17 @@ These are the default Design Rules for LumberDAQ.</description>
 </polygon>
 <contactref element="JP2" pad="6"/>
 <contactref element="SJ1" pad="1"/>
+<contactref element="LED1" pad="C"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="21.2725" y1="11.9625" x2="22.4155" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="17.8435" y1="10.16" x2="21.2725" y2="11.9625" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7225" y1="8.5725" x2="17.8435" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7225" y1="12.3825" x2="9.7225" y2="8.5725" width="0" layer="19" extent="1-1"/>
+<wire x1="5.2575" y1="12.0725" x2="9.7225" y2="12.3825" width="0" layer="19" extent="1-1"/>
+<wire x1="12.1793" y1="3.81" x2="9.7225" y2="8.5725" width="0" layer="19" extent="1-1"/>
+<wire x1="9.02" y1="1.905" x2="12.1793" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.8275" y1="1.7025" x2="5.2575" y2="12.0725" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.9075" y1="-1.905" x2="-16.8275" y2="1.7025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="/RST">
 <contactref element="U1" pad="1"/>
@@ -1904,6 +1961,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="14.2875" y="13.97" extent="1-16" drill="0.5"/>
 <wire x1="14.2875" y1="13.97" x2="14.2875" y2="15.24" width="0.254" layer="1"/>
 <wire x1="14.2875" y1="15.24" x2="13.2715" y2="15.24" width="0.254" layer="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="JP3" pad="2"/>
+<wire x1="-15.66" y1="-3.175" x2="14.2875" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.3675" y1="-1.905" x2="-15.66" y2="-3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="5"/>
@@ -2063,6 +2124,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="34.6075" y1="14.2875" x2="36.5125" y2="12.3825" width="0.4064" layer="1"/>
 <wire x1="36.5125" y1="12.3825" x2="37.846" y2="12.3825" width="0.4064" layer="1"/>
 <wire x1="37.846" y1="12.3825" x2="38.1" y2="12.6365" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R10" pad="1"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="-16.8275" y1="0.2025" x2="-17.36" y2="-3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
