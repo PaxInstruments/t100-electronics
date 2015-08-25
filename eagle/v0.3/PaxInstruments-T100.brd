@@ -134,9 +134,12 @@
 <wire x1="0" y1="15.23" x2="0" y2="1.905" width="0" layer="20"/>
 <wire x1="23.1775" y1="14.2875" x2="23.1775" y2="9.8425" width="1.016" layer="46"/>
 <wire x1="23.1775" y1="7.3025" x2="23.1775" y2="2.8575" width="1.016" layer="46"/>
-<text x="45.085" y="18.415" size="1.016" layer="26" font="vector" rot="MR0">Pax Instruments T-100 
-[v0.3] x 2014</text>
+<text x="20.6375" y="4.445" size="0.889" layer="26" font="vector" rot="MR0">Pax Instruments
+Temperature LabStick
+T100 v0.3 beta</text>
 <text x="15.24" y="0.9525" size="1.27" layer="25" font="vector">T100</text>
+<text x="20.6375" y="0.635" size="0.889" layer="26" font="vector" rot="MR0">paxinstruments.com/
+products/sku2252</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -5396,6 +5399,49 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </package>
 </packages>
 </library>
+<library name="PaxInstrument-T400">
+<description>Generated from &lt;b&gt;lumberdaq.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="SPARKFUN-AESTHETICS_OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5621,8 +5667,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MF" value="Pax Instrument" x="38.4175" y="8.5725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="Thermo-clip2" x="38.4175" y="8.5725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$1" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="PAX-LOGOPAX-LOGO-0.25IN" x="13.0175" y="4.1275" rot="MR0"/>
+<element name="U$1" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="PAX-LOGOPAX-LOGO-0.25IN" x="20.6375" y="9.525" rot="MR0"/>
 <element name="R11" library="rcl" package="R0603" value="0R" x="23.1775" y="15.875" smashed="yes" rot="R180"/>
+<element name="LOGO1" library="PaxInstrument-T400" package="SPARKFUN-AESTHETICS_OSHW-LOGO-S" value="SPARKFUN-AESTHETICS_OSHW-LOGOS" x="38.4175" y="4.445" rot="MR0"/>
 </elements>
 <signals>
 <signal name="USB_5V">
@@ -5695,10 +5742,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="JP2" pad="6"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="JP3" pad="1"/>
-<via x="18.7325" y="11.43" extent="1-16" drill="0.5"/>
+<via x="19.05" y="11.43" extent="1-16" drill="0.5"/>
 <via x="21.2725" y="13.6525" extent="1-16" drill="0.5"/>
 <via x="20.955" y="15.875" extent="1-16" drill="0.5"/>
-<via x="12.3825" y="11.43" extent="1-16" drill="0.5"/>
+<via x="11.7475" y="11.43" extent="1-16" drill="0.5"/>
 <via x="10.16" y="3.4925" extent="1-16" drill="0.5"/>
 <via x="14.9225" y="3.81" extent="1-16" drill="0.5"/>
 <contactref element="R11" pad="2"/>
@@ -5884,10 +5931,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="C8" pad="1"/>
 <contactref element="C7" pad="1"/>
 <wire x1="28.995" y1="12.065" x2="28.995" y2="10.4775" width="0.254" layer="1"/>
-<wire x1="28.995" y1="8.89" x2="28.995" y2="9.525" width="0.254" layer="1"/>
+<wire x1="28.995" y1="8.89" x2="28.995" y2="9.6301" width="0.254" layer="1"/>
 <wire x1="28.995" y1="9.6301" x2="28.995" y2="10.4775" width="0.254" layer="1"/>
 <wire x1="26.985" y1="9.6301" x2="28.995" y2="9.6301" width="0.254" layer="1"/>
-<wire x1="28.995" y1="9.6301" x2="28.995" y2="9.525" width="0.254" layer="1"/>
 </signal>
 <signal name="TC-">
 <contactref element="U$3" pad="6"/>
