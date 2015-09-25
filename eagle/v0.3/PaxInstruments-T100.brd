@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5633,7 +5633,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="PROD_ID" value="IC-08922" x="15.5575" y="5.715" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$3" library="SparkFun-DigitalIC" package="SOT23-6" value="MCP3421" x="26.035" y="8.255" smashed="yes" rot="R180"/>
-<element name="U$4" library="SparkFun-DigitalIC" package="SOT23-5" value="MCP9800" x="26.035" y="12.7" smashed="yes" rot="R180"/>
+<element name="U$4" library="SparkFun-DigitalIC" package="SOT23-5" value="MCP9800A0" x="26.035" y="12.7" smashed="yes" rot="R180"/>
 <element name="L1" library="SeeesStudio-OPL" package="L0603" value="" x="23.1775" y="1.27" smashed="yes">
 <attribute name="VALUE" x="21.6535" y="0.9525" size="0.635" layer="27" ratio="10"/>
 </element>
