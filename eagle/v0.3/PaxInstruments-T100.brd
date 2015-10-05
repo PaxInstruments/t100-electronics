@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -36,13 +40,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -70,33 +74,33 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tBridges" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="tBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -122,21 +126,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -150,13 +154,35 @@
 <wire x1="0" y1="15.23" x2="0" y2="1.905" width="0" layer="20"/>
 <wire x1="23.1775" y1="14.2875" x2="23.1775" y2="9.8425" width="0.762" layer="46"/>
 <wire x1="23.1775" y1="7.3025" x2="23.1775" y2="2.8575" width="0.762" layer="46"/>
-<text x="20.6375" y="4.445" size="0.889" layer="22" font="vector" rot="MR0">Pax Instruments
+<text x="22.1615" y="6.223" size="0.889" layer="22" font="vector" rot="MR0">Pax Instruments
 Temperature LabStick
 T100 v0.3 beta</text>
 <text x="14.2875" y="0.3175" size="1.27" layer="25" font="vector">T100</text>
-<text x="20.6375" y="0.635" size="0.889" layer="22" font="vector" rot="MR0">paxinstruments.com/
+<text x="22.1615" y="3.683" size="0.889" layer="22" font="vector" rot="MR0">paxinstruments.com/
 products/sku2252</text>
 <text x="25.0825" y="13.97" size="2.54" layer="51">TC+</text>
+<hole x="44.958" y="8.89" drill="0.3048"/>
+<hole x="44.958" y="8.382" drill="0.3048"/>
+<hole x="45.212" y="7.874" drill="0.3048"/>
+<hole x="45.72" y="7.62" drill="0.3048"/>
+<hole x="45.212" y="9.398" drill="0.3048"/>
+<hole x="45.72" y="9.652" drill="0.3048"/>
+<hole x="1.27" y="8.382" drill="0.3048"/>
+<hole x="1.27" y="8.89" drill="0.3048"/>
+<hole x="1.016" y="9.398" drill="0.3048"/>
+<hole x="0.508" y="9.652" drill="0.3048"/>
+<hole x="1.016" y="7.874" drill="0.3048"/>
+<hole x="0.508" y="7.62" drill="0.3048"/>
+<text x="46.99" y="13.208" size="1.778" layer="48">Mount to panel here</text>
+<text x="-12.192" y="18.034" size="1.778" layer="48">Mount to panel here</text>
+<wire x1="-0.508" y1="8.636" x2="-2.794" y2="8.636" width="0.4064" layer="48"/>
+<wire x1="-2.794" y1="8.636" x2="-11.176" y2="17.018" width="0.4064" layer="48"/>
+<wire x1="-0.508" y1="8.636" x2="-1.524" y2="9.652" width="0.4064" layer="48"/>
+<wire x1="-0.508" y1="8.636" x2="-1.524" y2="7.62" width="0.4064" layer="48"/>
+<wire x1="46.482" y1="8.636" x2="48.768" y2="8.636" width="0.4064" layer="48"/>
+<wire x1="48.768" y1="8.636" x2="52.832" y2="12.7" width="0.4064" layer="48"/>
+<wire x1="46.482" y1="8.636" x2="47.752" y2="9.906" width="0.4064" layer="48"/>
+<wire x1="46.482" y1="8.636" x2="47.752" y2="7.366" width="0.4064" layer="48"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -5399,7 +5425,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="PaxInstrument-T400">
+<designrules name="PaxInstrument-T400 *">
 <description language="en">&lt;b&gt;LumberDAQ Design Rules&lt;/b&gt;
 &lt;p&gt;
 These are the default Design Rules for LumberDAQ.</description>
@@ -5421,7 +5447,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="13mil"/>
+<param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -5474,11 +5500,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="2"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -5493,7 +5516,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -5788,12 +5811,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="JP2" pad="2"/>
 <contactref element="R9" pad="2"/>
 <wire x1="5.2575" y1="5.0725" x2="5.2575" y2="3.82" width="0.4064" layer="1"/>
-<via x="20.955" y="1.5875" extent="1-16" drill="0.5"/>
+<via x="20.955" y="1.5875" extent="1-16" drill="0.3048"/>
 <wire x1="5.715" y1="1.27" x2="5.08" y2="1.905" width="0.4064" layer="16"/>
 <wire x1="5.08" y1="1.905" x2="5.08" y2="4.895" width="0.4064" layer="16"/>
 <wire x1="5.08" y1="4.895" x2="5.2575" y2="5.0725" width="0.4064" layer="16"/>
 <wire x1="16.8275" y1="15.24" x2="15.5575" y2="13.97" width="0.4064" layer="1"/>
-<via x="15.5575" y="13.97" extent="1-16" drill="0.5"/>
+<via x="15.5575" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="15.5575" y1="13.97" x2="14.605" y2="15.24" width="0.4064" layer="16"/>
 <wire x1="14.605" y1="15.24" x2="11.1125" y2="15.24" width="0.4064" layer="16"/>
 <wire x1="11.1125" y1="15.24" x2="10.4775" y2="14.605" width="0.4064" layer="16"/>
@@ -5821,7 +5844,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="7.49" y1="3.175" x2="6.22" y2="1.905" width="0.4064" layer="1"/>
 <wire x1="18.9103" y1="6.35" x2="20.955" y2="6.35" width="0.4064" layer="1"/>
 <wire x1="20.955" y1="6.35" x2="21.2725" y2="6.6675" width="0.4064" layer="1"/>
-<via x="21.2725" y="6.6675" extent="1-16" drill="0.5"/>
+<via x="21.2725" y="6.6675" extent="1-16" drill="0.3048"/>
 <wire x1="21.2725" y1="6.6675" x2="21.2725" y2="1.905" width="0.4064" layer="16"/>
 <wire x1="21.2725" y1="1.905" x2="20.955" y2="1.5875" width="0.4064" layer="16"/>
 <wire x1="5.715" y1="1.27" x2="10.4775" y2="1.27" width="0.4064" layer="16"/>
@@ -5853,20 +5876,23 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="JP2" pad="6"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="JP3" pad="1"/>
-<via x="19.05" y="11.43" extent="1-16" drill="0.5"/>
-<via x="13.0175" y="7.62" extent="1-16" drill="0.5"/>
-<via x="16.8275" y="6.985" extent="1-16" drill="0.5"/>
-<via x="11.7475" y="11.43" extent="1-16" drill="0.5"/>
-<via x="10.4775" y="3.175" extent="1-16" drill="0.5"/>
-<via x="14.9225" y="2.54" extent="1-16" drill="0.5"/>
+<via x="19.05" y="11.43" extent="1-16" drill="0.3048"/>
+<via x="13.0175" y="7.62" extent="1-16" drill="0.3048"/>
+<via x="16.8275" y="6.985" extent="1-16" drill="0.3048"/>
+<via x="11.7475" y="11.43" extent="1-16" drill="0.3048"/>
+<via x="10.4775" y="3.175" extent="1-16" drill="0.3048"/>
+<via x="14.9225" y="2.54" extent="1-16" drill="0.3048"/>
 <contactref element="R11" pad="2"/>
-<via x="14.9225" y="4.7625" extent="1-16" drill="0.5"/>
+<via x="14.9225" y="4.7625" extent="1-16" drill="0.3048"/>
 <contactref element="C9" pad="2"/>
 <wire x1="20.955" y1="16.09" x2="21.17" y2="15.875" width="0.4064" layer="1"/>
 <wire x1="21.17" y1="15.875" x2="22.3275" y2="15.875" width="0.4064" layer="1"/>
-<via x="6.985" y="5.3975" extent="1-16" drill="0.5"/>
-<via x="8.5725" y="13.6525" extent="1-16" drill="0.5"/>
-<via x="12.7" y="0.9525" extent="1-16" drill="0.5"/>
+<via x="6.985" y="5.3975" extent="1-16" drill="0.3048"/>
+<via x="8.5725" y="13.6525" extent="1-16" drill="0.3048"/>
+<via x="12.7" y="0.9525" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="8.5725" extent="1-16" drill="0.3048"/>
+<via x="11.2395" y="8.128" extent="1-16" drill="0.3048"/>
+<via x="12.0015" y="13.97" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="/RST">
 <contactref element="U1" pad="1"/>
@@ -5913,17 +5939,17 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="20.6375" y1="5.715" x2="21.9075" y2="5.715" width="0.4064" layer="1"/>
 <wire x1="21.9075" y1="5.715" x2="22.225" y2="6.0325" width="0.4064" layer="1"/>
 <wire x1="22.225" y1="6.0325" x2="22.225" y2="8.89" width="0.4064" layer="1"/>
-<via x="15.5575" y="6.6675" extent="1-16" drill="0.5"/>
+<via x="15.5575" y="6.6675" extent="1-16" drill="0.3048"/>
 <wire x1="15.5575" y1="6.6675" x2="15.5575" y2="11.1125" width="0.4064" layer="16"/>
-<via x="15.5575" y="11.1125" extent="1-16" drill="0.5"/>
+<via x="15.5575" y="11.1125" extent="1-16" drill="0.3048"/>
 <wire x1="15.5575" y1="11.1125" x2="15.5575" y2="12.065" width="0.4064" layer="1"/>
 <wire x1="36.1649" y1="9.5225" x2="36.1624" y2="9.525" width="0.4064" layer="1"/>
 <wire x1="36.1624" y1="9.525" x2="34.6075" y2="9.525" width="0.4064" layer="1"/>
-<via x="34.6075" y="9.525" extent="1-16" drill="0.5"/>
+<via x="34.6075" y="9.525" extent="1-16" drill="0.3048"/>
 <wire x1="34.6075" y1="9.525" x2="28.575" y2="9.525" width="0.4064" layer="16"/>
 <wire x1="28.575" y1="9.525" x2="26.67" y2="11.43" width="0.4064" layer="16"/>
 <wire x1="26.67" y1="11.43" x2="25.4" y2="11.43" width="0.4064" layer="16"/>
-<via x="25.4" y="11.43" extent="1-16" drill="0.5"/>
+<via x="25.4" y="11.43" extent="1-16" drill="0.3048"/>
 <wire x1="25.4" y1="11.43" x2="25.085" y2="11.115" width="0.4064" layer="1"/>
 <wire x1="25.085" y1="11.115" x2="25.085" y2="9.6301" width="0.4064" layer="1"/>
 </signal>
@@ -5933,9 +5959,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="JP3" pad="2"/>
 <wire x1="13.2715" y1="15.24" x2="9.2075" y2="15.24" width="0.4064" layer="1"/>
-<via x="13.97" y="8.5725" extent="1-16" drill="0.5"/>
+<via x="13.97" y="8.5725" extent="1-16" drill="0.3048"/>
 <wire x1="13.97" y1="8.5725" x2="13.97" y2="13.97" width="0.4064" layer="16"/>
-<via x="13.97" y="13.97" extent="1-16" drill="0.5"/>
+<via x="13.97" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="13.97" y1="13.97" x2="13.97" y2="15.24" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="15.24" x2="13.2715" y2="15.24" width="0.254" layer="1"/>
 <wire x1="13.97" y1="8.5725" x2="13.97" y2="3.81" width="0.4064" layer="1"/>
@@ -5951,15 +5977,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="JP2" pad="4"/>
 <wire x1="25.085" y1="6.8799" x2="25.085" y2="5.7175" width="0.4064" layer="1"/>
 <wire x1="25.085" y1="5.7175" x2="25.0825" y2="5.3975" width="0.4064" layer="1"/>
-<via x="25.0825" y="5.3975" extent="1-16" drill="0.5"/>
+<via x="25.0825" y="5.3975" extent="1-16" drill="0.3048"/>
 <wire x1="25.0825" y1="5.3975" x2="25.0825" y2="7.9375" width="0.4064" layer="16"/>
 <wire x1="25.0825" y1="7.9375" x2="24.765" y2="8.255" width="0.4064" layer="16"/>
 <wire x1="17.8435" y1="12.7" x2="17.4625" y2="12.7" width="0.254" layer="1"/>
 <wire x1="17.4625" y1="12.7" x2="16.8275" y2="12.065" width="0.4064" layer="1"/>
 <wire x1="16.8275" y1="12.065" x2="16.8275" y2="11.43" width="0.4064" layer="1"/>
-<via x="16.8275" y="11.43" extent="1-16" drill="0.5"/>
+<via x="16.8275" y="11.43" extent="1-16" drill="0.3048"/>
 <wire x1="16.8275" y1="11.43" x2="16.8275" y2="8.255" width="0.4064" layer="16"/>
-<via x="16.8275" y="2.54" extent="1-16" drill="0.5"/>
+<via x="16.8275" y="2.54" extent="1-16" drill="0.3048"/>
 <wire x1="16.8275" y1="2.54" x2="18.9103" y2="2.54" width="0.4064" layer="1"/>
 <wire x1="24.765" y1="8.255" x2="18.415" y2="8.255" width="0.4064" layer="16"/>
 <wire x1="18.415" y1="8.255" x2="16.8275" y2="8.255" width="0.4064" layer="16"/>
@@ -5974,7 +6000,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="25.7175" y1="7.3025" x2="30.48" y2="7.3025" width="0.4064" layer="16"/>
 <wire x1="30.48" y1="7.3025" x2="31.4325" y2="8.255" width="0.4064" layer="16"/>
 <wire x1="31.4325" y1="8.255" x2="32.385" y2="8.255" width="0.4064" layer="16"/>
-<via x="32.385" y="8.255" extent="1-16" drill="0.5"/>
+<via x="32.385" y="8.255" extent="1-16" drill="0.3048"/>
 <wire x1="32.385" y1="8.255" x2="33.0175" y2="7.6225" width="0.4064" layer="1"/>
 <wire x1="33.0175" y1="7.6225" x2="36.1649" y2="7.6225" width="0.4064" layer="1"/>
 </signal>
@@ -6011,7 +6037,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R4" pad="2"/>
 <wire x1="26.035" y1="6.8799" x2="26.035" y2="4.9775" width="0.254" layer="1"/>
 <wire x1="26.035" y1="4.9775" x2="25.185" y2="4.1275" width="0.254" layer="1"/>
-<via x="27.6225" y="2.8575" extent="1-16" drill="0.5"/>
+<via x="27.6225" y="2.8575" extent="1-16" drill="0.3048"/>
 <contactref element="R12" pad="1"/>
 <wire x1="24.0275" y1="1.27" x2="24.4475" y2="1.27" width="0.4064" layer="1"/>
 <wire x1="24.4475" y1="1.27" x2="25.185" y2="2.0075" width="0.4064" layer="1"/>
@@ -6026,7 +6052,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="30.7975" y1="6.35" x2="31.75" y2="7.3025" width="0.4064" layer="16"/>
 <wire x1="31.75" y1="7.3025" x2="39.6875" y2="7.3025" width="0.4064" layer="16"/>
 <wire x1="39.6875" y1="7.3025" x2="40.3225" y2="7.9375" width="0.4064" layer="16"/>
-<via x="40.3225" y="7.9375" extent="1-16" drill="0.5"/>
+<via x="40.3225" y="7.9375" extent="1-16" drill="0.3048"/>
 <wire x1="40.3225" y1="7.9375" x2="40.0376" y2="7.62" width="0.4064" layer="1"/>
 <wire x1="40.0376" y1="7.62" x2="38.7651" y2="7.6225" width="0.4064" layer="1"/>
 <wire x1="41.695" y1="9.2075" x2="41.695" y2="7.9375" width="0.4064" layer="1"/>
@@ -6052,17 +6078,28 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
-<via x="44.7675" y="8.5725" extent="1-16" drill="0.5"/>
-<via x="28.2575" y="15.24" extent="1-16" drill="0.5"/>
-<via x="27.6225" y="5.3975" extent="1-16" drill="0.5"/>
-<via x="26.035" y="8.255" extent="1-16" drill="0.5"/>
-<via x="33.655" y="8.5725" extent="1-16" drill="0.5"/>
-<via x="40.3225" y="9.2075" extent="1-16" drill="0.5"/>
+<via x="45.085" y="6.5405" extent="1-16" drill="0.3048"/>
+<via x="28.2575" y="15.24" extent="1-16" drill="0.3048"/>
+<via x="27.6225" y="5.3975" extent="1-16" drill="0.3048"/>
+<via x="26.035" y="8.255" extent="1-16" drill="0.3048"/>
+<via x="33.655" y="8.5725" extent="1-16" drill="0.3048"/>
+<via x="40.3225" y="9.2075" extent="1-16" drill="0.3048"/>
 <contactref element="R11" pad="1"/>
 <contactref element="C2" pad="2"/>
-<via x="31.115" y="0.9525" extent="1-16" drill="0.5"/>
-<via x="25.0825" y="14.2875" extent="1-16" drill="0.5"/>
-<via x="26.3525" y="12.7" extent="1-16" drill="0.5"/>
+<via x="31.115" y="0.9525" extent="1-16" drill="0.3048"/>
+<via x="25.0825" y="14.2875" extent="1-16" drill="0.3048"/>
+<via x="26.3525" y="12.7" extent="1-16" drill="0.3048"/>
+<via x="45.085" y="10.6045" extent="1-16" drill="0.3048"/>
+<via x="35.2425" y="8.5725" extent="1-16" drill="0.3048"/>
+<via x="37.465" y="8.5725" extent="1-16" drill="0.3048"/>
+<via x="26.035" y="2.8575" extent="1-16" drill="0.3048"/>
+<via x="29.845" y="16.1925" extent="1-16" drill="0.3048"/>
+<via x="31.115" y="13.97" extent="1-16" drill="0.3048"/>
+<via x="24.765" y="12.7" extent="1-16" drill="0.3048"/>
+<via x="26.67" y="15.24" extent="1-16" drill="0.3048"/>
+<via x="31.115" y="1.9685" extent="1-16" drill="0.3048"/>
+<via x="31.623" y="10.3505" extent="1-16" drill="0.3048"/>
+<via x="27.559" y="8.3185" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="TC+">
 <contactref element="U$3" pad="1"/>
@@ -6124,33 +6161,57 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="5,1,eea8137f135ff099"/>
-<approved hash="4,1,0b61e20fdc24b548"/>
-<approved hash="4,1,28abc049fe6e9692"/>
-<approved hash="4,1,9cf34b49fe6ee701"/>
-<approved hash="4,1,0b61f3c444a9f248"/>
-<approved hash="19,1,8577b677162af560"/>
-<approved hash="4,1,f8f727985cbf4d05"/>
-<approved hash="4,1,0264e2985cbf3c5d"/>
-<approved hash="19,1,7e7572ab4d7991ed"/>
-<approved hash="4,1,21bed15f28329697"/>
-<approved hash="4,1,21bec0d27ef91f97"/>
-<approved hash="4,1,0b05e2a3dcb8b5ec"/>
-<approved hash="4,1,2817c1b5ffca96fe"/>
-<approved hash="4,1,0b05f258454df2ec"/>
-<approved hash="4,1,9c5f4ab5ffcae76d"/>
-<approved hash="19,1,7ef5738f4ced91dd"/>
-<approved hash="4,1,211ad0bb29ae96f3"/>
-<approved hash="4,1,211ac04e7e551ff3"/>
-<approved hash="19,1,8547b7fb1816fae0"/>
-<approved hash="4,1,f89b263c5d434da9"/>
-<approved hash="4,1,0208e33c5d433ce1"/>
+<approved hash="7,39,4bb28bf20bf1cbb1"/>
+<approved hash="7,39,b6fc763df63c36fd"/>
+<approved hash="7,39,27c41a43a32126b8"/>
+<approved hash="7,39,d17654ff60795dee"/>
+<approved hash="7,39,266c1a1e6315e700"/>
+<approved hash="7,39,e3ec04140423e3db"/>
+<approved hash="7,39,50e7d4a220741c56"/>
+<approved hash="7,39,327e260626003278"/>
+<approved hash="7,39,f64ed061324bec42"/>
+<approved hash="7,39,f27e26062606f27e"/>
+<approved hash="7,39,763c56fef4f7ac10"/>
+<approved hash="7,39,36ce1821da0a4cc2"/>
+<approved hash="7,39,e76071b89bceb531"/>
+<approved hash="7,39,f63de67b84706c13"/>
+<approved hash="7,39,a797ce2745b0d425"/>
+<approved hash="7,39,a7e0f9f9f38f55b0"/>
+<approved hash="7,39,363c2e3a6c30cc10"/>
+<approved hash="7,39,7624673645052cf8"/>
+<approved hash="7,39,b28c26f42703b37b"/>
+<approved hash="7,39,e79647e62df035a6"/>
+<approved hash="7,39,a7967fa5b5371521"/>
+<approved hash="7,39,a7664e8a042d952e"/>
+<approved hash="7,39,6eec001400236edb"/>
+<approved hash="7,39,aa8df4f5f502ab7a"/>
+<approved hash="7,39,2a7ff407f4012a79"/>
+<approved hash="7,39,ea7ff407f407ea7f"/>
+<approved hash="7,39,24c2098d18af8dfa"/>
+<approved hash="7,39,9f710a3dd77bfa2d"/>
+<approved hash="7,39,24260ab71b858d7a"/>
+<approved hash="7,39,9fe9090bd42dfaa1"/>
+<approved hash="7,39,ee6c36143616ee6e"/>
+<approved hash="7,39,e26c00140017e26f"/>
+<approved hash="18,29,c394ceba75f232ed"/>
+<approved hash="18,29,9ef8b582380855a3"/>
+<approved hash="18,29,977247a0bf4d30a7"/>
+<approved hash="18,29,a959e41e85dc97a3"/>
+<approved hash="18,29,d14bf1edf628785b"/>
+<approved hash="18,29,7bfd712fa40c0ceb"/>
+<approved hash="18,29,2b72c7c7cd2ac2a7"/>
+<approved hash="18,29,2959587977bbe5a3"/>
+<approved hash="18,29,0a20befc84f72c39"/>
+<approved hash="18,29,27bba5e3db3864f9"/>
+<approved hash="18,29,9c68a361960fb41b"/>
+<approved hash="18,29,2729c49d63bcd081"/>
+<approved hash="18,30,70f11d1f4e19fd41"/>
 <approved hash="4,1,bf912b8e844002c1"/>
 <approved hash="4,1,af092b7e85563d22"/>
 <approved hash="4,1,cb095f06f0d802c1"/>
 <approved hash="19,1,7df57cd6c08411ed"/>
-<approved hash="4,1,86f70d279fdd4932"/>
 <approved hash="4,1,4dad60136f20429e"/>
+<approved hash="4,1,86f70d279fdd4932"/>
 <approved hash="4,1,6ef5995365aa8732"/>
 <approved hash="4,1,c9c36c093afd9236"/>
 <approved hash="4,1,c9c370b126658f8e"/>
