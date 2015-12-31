@@ -2,7 +2,6 @@
 "1";"";"HEADER-1X2ROUND";"1X02_ROUND";"JP3";"PIN HEADER";"";"";"";"DNP";"";"";"";
 "1";"";"M03X2SMT";"2X3_SMT_POSTS";"JP2";"2x3 .1" header.";"FCI";"95278-101A06LF";"609-3487-2-ND";"DNP";"CONN-11415";"";"";
 "5";"0.1uF";"C-EUC0603";"C0603";"C1, C4, C5, C6, C7";"CAPACITOR, European symbol";"Yageo";"CC0603JRX7R9BB104";"311-1779-2-ND";"generic";"";"5%";"";
-"2";"0R";"R-EU_R0603";"R0603";"R11, R12";"RESISTOR, European symbol";"Yageo";"RC0603JR-070RL";"311-0.0GRTR-ND";"generic";"";"Jumper";"";
 "1";"1.2K";"R-EU_R0603";"R0603";"R9";"RESISTOR, European symbol";"Yageo";"RC0603JR-071K2L";"311-1.2KGRTR-ND";"generic";"";"5%";"";
 "2";"10uF";"CAP1206";"1206";"C2, C9";"Capacitor";"Yageo";"CC1206KKX5R7BB106";"311-1465-2-ND";"generic";"";"10%";"";
 "2";"1M";"R-EU_R0603";"R0603";"R3, R4";"RESISTOR, European symbol";"Yageo";"RC0603FR-071ML";"311-1.00MHRTR-ND";"generic";"";"1%";"";
@@ -13,8 +12,9 @@
 "3";"499R";"R-EU_R0603";"R0603";"R5, R6, R10";"RESISTOR, European symbol";"Yageo";"RT0603DRD07499RL";"311-499DTR-ND";"generic";"";"0.5%";"";
 "1";"Attiny85";"ATTINY45TINY45-20-SMT";"SO08-EIAJ";"U1";"Atmel 8-pin 2/4/8kB flash uC";"Atmel";"ATTINY85-20SUR";"ATTINY85-20SURTR-ND";"MPN";"IC-08922";"";"Tiny45-20-SMT";
 "1";"Green";"LED0603";"LED-0603";"LED1";"LEDs";"Lite-On Inc.";"LTST-C191KGKT";"160-1446-2-ND";"generic";"";"";"";
+"2";"JUMPER-PAD-2-NC_BY_TRACENO_SILK";"JUMPER-PAD-2-NC_BY_TRACENO_SILK";"PAD-JUMPER-2-NC_BY_TRACE_NO_SILK";"SJ1, SJ2";"";"";"";"";"";"";"";"";
 "1";"MCP3421A0";"MCP3421";"SOT23-6";"U$3";"";"Microchip Technology";"MCP3421A0T-E/CH";"MCP3421A0T-E/CHTR-ND";"MPN";"";"";"";
 "1";"MCP9800A0";"MCP9800";"SOT23-5";"U$4";"";"Microchip Technology";"MCP9800A0T-M/OT";"MCP9800A0T-M/OTTR-ND";"MPN";"";"";"";
 "1";"PAX-LOGOPAX-LOGO-0.25IN";"PAX-LOGOPAX-LOGO-0.25IN";"PAX-LOGO-0.25IN";"U$1";"";"";"";"";"DNP";"";"";"";
 "2";"TC-MINI-SINGLE";"TC-MINI-SINGLE";"TC-CLIP-SINGLE";"U$2, U$6";"";"Pax Instruments";"1024";"";"MPN";"";"";"";
-"1";"USB-A-H";"USB-A-H";"USB-A-H";"JP1";"USB Connectors";"Molex";"0480370001";"WM17117-ND";"generic";"";"";"";
+"1";"USBA-SMD-MALE";"USBA-SMD-MALE";"USB-A-SMT-MALE";"JP4";"USB Connectors";"";"";"";"";"";"";"";
