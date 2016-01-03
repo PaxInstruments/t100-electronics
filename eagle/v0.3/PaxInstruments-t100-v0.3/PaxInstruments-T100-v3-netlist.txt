@@ -1,0 +1,103 @@
+Netlist
+
+Exported from PaxInstruments-T100.brd at 2016-01-03 10:57 
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Net      Part     Pad
+
+/RST     JP2      5
+         U1       1
+
+AGND     C2       2
+         C4       2
+         C5       2
+         C6       2
+         C7       2
+         R3       1
+         SJ2      2
+         U$3      2
+         U$4      2
+
+A_5V     C2       1
+         C4       1
+         C5       1
+         R4       2
+         SJ1      1
+         U$3      5
+         U$4      1
+
+D+       R1       1
+         U1       3
+
+D-       R2       1
+         U1       2
+
+GND      C1       2
+         C9       2
+         D1       2
+         D2       2
+         JP2      6
+         JP3      1
+         JP4      VBUS1
+         LED1     C
+         SJ2      1
+         U1       4
+
+N$1      D2       1
+         JP4      D+1
+         R2       2
+         R9       1
+
+N$2      D1       1
+         JP4      D-1
+         R1       2
+
+N$3      R3       2
+         R5       2
+         U$2      P$1
+
+N$4      R4       1
+         R6       2
+         U$6      P$1
+
+N$5      LED1     A
+         R10      1
+
+SCL      JP2      3
+         R8       1
+         U$3      3
+         U$4      4
+         U1       7
+
+SDA      JP2      4
+         R7       1
+         U$3      4
+         U$4      5
+         U1       5
+
+SPARE    JP2      1
+         JP3      2
+         R10      2
+         U1       6
+
+TC+      C7       1
+         C8       1
+         R6       1
+         U$3      1
+
+TC-      C6       1
+         C8       2
+         R5       1
+         U$3      6
+
+USB_5V   C1       1
+         C9       1
+         JP2      2
+         JP4      GND1
+         R7       2
+         R8       2
+         R9       2
+         SJ1      2
+         U1       8
+

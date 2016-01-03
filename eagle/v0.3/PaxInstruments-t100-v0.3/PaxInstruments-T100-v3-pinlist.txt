@@ -1,0 +1,121 @@
+Pinlist
+
+Exported from PaxInstruments-T100.brd at 2016-01-03 10:57 
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Part     Pad      Net
+
+C1       1        USB_5V
+         2        GND
+
+C2       1        A_5V
+         2        AGND
+
+C4       1        A_5V
+         2        AGND
+
+C5       1        A_5V
+         2        AGND
+
+C6       1        TC-
+         2        AGND
+
+C7       1        TC+
+         2        AGND
+
+C8       1        TC+
+         2        TC-
+
+C9       1        USB_5V
+         2        GND
+
+D1       1        N$2
+         2        GND
+
+D2       1        N$1
+         2        GND
+
+JP2      1        SPARE
+         2        USB_5V
+         3        SCL
+         4        SDA
+         5        /RST
+         6        GND
+
+JP3      1        GND
+         2        SPARE
+
+JP4      D+1      N$1
+         D-1      N$2
+         GND1     USB_5V
+         P$1               *** unconnected ***
+         P$3               *** unconnected ***
+         VBUS1    GND
+
+LED1     A        N$5
+         C        GND
+
+R1       1        D+
+         2        N$2
+
+R2       1        D-
+         2        N$1
+
+R3       1        AGND
+         2        N$3
+
+R4       1        N$4
+         2        A_5V
+
+R5       1        TC-
+         2        N$3
+
+R6       1        TC+
+         2        N$4
+
+R7       1        SDA
+         2        USB_5V
+
+R8       1        SCL
+         2        USB_5V
+
+R9       1        N$1
+         2        USB_5V
+
+R10      1        N$5
+         2        SPARE
+
+SJ1      1        A_5V
+         2        USB_5V
+
+SJ2      1        GND
+         2        AGND
+
+U$1     
+U$2      P$1      N$3
+
+U$3      1        TC+
+         2        AGND
+         3        SCL
+         4        SDA
+         5        A_5V
+         6        TC-
+
+U$4      1        A_5V
+         2        AGND
+         3                 *** unconnected ***
+         4        SCL
+         5        SDA
+
+U$6      P$1      N$4
+
+U1       1        /RST
+         2        D-
+         3        D+
+         4        GND
+         5        SDA
+         6        SPARE
+         7        SCL
+         8        USB_5V
+

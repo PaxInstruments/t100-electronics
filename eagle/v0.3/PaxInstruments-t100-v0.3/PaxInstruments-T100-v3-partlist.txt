@@ -1,0 +1,41 @@
+Partlist
+
+Exported from PaxInstruments-T100.brd at 2016-01-03 10:57 
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                           Package                          Library                   Position (mil)        Orientation
+
+C1       0.1uF                           C0603                            rcl                       (650 260)             R180
+C2       10uF                            1206                             SparkFun-Passives         (920 510)             R180
+C4       0.1uF                           C0603                            rcl                       (910 130)             R0
+C5       0.1uF                           C0603                            rcl                       (1090 200)            R0
+C6       0.1uF                           C0603                            rcl                       (910 60)              R180
+C7       0.1uF                           C0603                            rcl                       (910 392.5)           R180
+C8       1uF                             C0603                            rcl                       (1090 400)            R180
+C9       10uF                            1206                             SparkFun-Passives         (320 510)             R0
+D1       3.6V Zener                      SOD-323                          SparkFun-DiscreteSemi     (510 280)             R0
+D2       3.6V Zener                      SOD-323                          SparkFun-DiscreteSemi     (370 350)             R0
+JP2                                      2X3_SMT_POSTS                    SparkFun-Connectors       (340 300)             MR270
+JP3                                      1X02_ROUND                       microbuilder              (640 440)             R270
+JP4      USBA-SMD-MALE                   USB-A-SMT-MALE                   SparkFun-Connectors       (0 300)               R90
+LED1     Green                           LED-0603                         SparkFun-LED              (640 320)             R270
+R1       27R                             R0603                            rcl                       (270 80)              R180
+R2       27R                             R0603                            rcl                       (370 280)             R180
+R3       1M                              R0603                            rcl                       (1090 130)            R180
+R4       1M                              R0603                            rcl                       (1090 540)            R180
+R5       499R                            R0603                            rcl                       (1090 60)             R0
+R6       499R                            R0603                            rcl                       (1090 470)            R0
+R7       4.7k                            R0603                            rcl                       (510 450)             R180
+R8       4.7k                            R0603                            rcl                       (510 530)             R180
+R9       1.2K                            R0603                            rcl                       (370 420)             R180
+R10      499R                            R0603                            rcl                       (510 370)             R180
+SJ1      JUMPER-PAD-2-NC_BY_TRACENO_SILK PAD-JUMPER-2-NC_BY_TRACE_NO_SILK SparkFun-Passives         (770 500)             R180
+SJ2      JUMPER-PAD-2-NC_BY_TRACENO_SILK PAD-JUMPER-2-NC_BY_TRACE_NO_SILK SparkFun-Passives         (770 100)             R0
+U$2      TC-MINI-SINGLE                  TC-CLIP-SINGLE                   PaxInstruments-Connectors (1430 160)            R90
+U$3      MCP3421A0                       SOT23-6                          SparkFun-DigitalIC        (910 260)             R180
+U$4      MCP9800A0                       SOT23-5                          SparkFun-DigitalIC        (1090 300)            R90
+U$6      TC-MINI-SINGLE                  TC-CLIP-SINGLE                   PaxInstruments-Connectors (1430 440)            R270
+U1       Attiny85                        SO08-EIAJ                        SparkFun-DigitalIC_ihsan  (520 130)             R270
